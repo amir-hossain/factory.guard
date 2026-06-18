@@ -1,0 +1,29 @@
+{
+  "version": "0.11.1",
+  "integration_state_schema": 1,
+  "installed_integrations": [
+    "codex",
+    "claude",
+    "generic"
+  ],
+  "integration_settings": {
+    "codex": {
+      "script": "sh",
+      "invoke_separator": "-"
+    },
+    "claude": {
+      "script": "sh",
+      "invoke_separator": "-"
+    },
+    "generic": {
+      "script": "sh",
+      "raw_options": "--commands-dir .puku/commands",
+      "parsed_options": {
+        "commands_dir": ".puku/commands"
+      },
+      "invoke_separator": "."
+    }
+  },
+  "integration": "codex",
+  "default_integration": "codex"
+}
